@@ -1,0 +1,12 @@
+
+
+fun main() {
+
+   
+   
+   var test = arrayOf(1,2,3,5,6,7,9,4)
+   
+   println(test.size)
+   
+   
+}
