@@ -1,0 +1,15 @@
+import java.util.*
+
+fun main() {
+   val one = "InternShala"
+    val two ="Training"
+   if(one.length == two.length)
+    {
+        println("Length is Same")
+        
+    }
+   else{
+       println("Length is Different")
+   }
+   
+}
