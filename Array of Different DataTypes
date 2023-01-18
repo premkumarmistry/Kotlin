@@ -1,0 +1,11 @@
+import java.util.*
+
+fun main(){
+   
+   
+   var test = arrayOf(1,"Test",1.2,10.2525)
+
+        print(Arrays.toString(test))
+   
+   
+}
