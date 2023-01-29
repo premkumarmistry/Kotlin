@@ -1,0 +1,45 @@
+fun main() {
+    // write your code here
+
+
+println("USING WHILE LOOP")
+var k=0
+var add1=0
+
+while(k<=50)
+{
+    add1 = add1+k
+    
+    k++
+}
+println(add1)
+
+println("USING FOR LOOP")
+
+
+    var add=0
+    var temp=0
+    for(i in 0..50)
+    
+    {
+        
+        add=add+i
+        temp=add
+       
+    }
+    println(temp)
+ 
+ println ("USING DO WHILE LOOP")
+var j = 0 
+var add3=0 
+
+do{
+    add3=add3+j
+    j++
+}
+while(j<=50)
+
+println(add3)
+
+
+}
