@@ -1,0 +1,29 @@
+fun main() {
+    // write your code here
+ 
+ println()
+ println("USING WHILE LOOP")
+ 
+ var i =0
+    while(i<=50)
+    {
+       println(i) 
+  i++
+    }
+    println()
+    println("USING DO-WHILE LOOP")
+    var j = 0 
+    do{
+        println(j)
+        j++
+    }
+    while(j<=50)
+    
+    println()
+    println("USING FOR LOOP")
+    for (k in 0..50){
+        println(k)
+    }
+    
+    
+}
