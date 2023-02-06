@@ -1,0 +1,12 @@
+fun main() {
+    
+    // write your code here
+     val myMutableList = mutableListOf("Lionel Messi", "Wayne Rooney", "Luka Modric", "Eden Hazard", "Sergio Aguero")
+     
+        myMutableList.add("Harry Kane")
+        println(myMutableList)
+        myMutableList.removeAt(1)
+        println(myMutableList)
+          myMutableList.add(1,"Neymar Jr")
+           println(myMutableList)
+}
