@@ -1,0 +1,13 @@
+fun main() {
+
+   var i = 0
+   var j = 1
+   var k = 0
+   print("$i, $j")
+   for (r in 1..8) {
+       k = i + j
+       print(", $k")
+       i = j
+       j = k
+   }
+}
