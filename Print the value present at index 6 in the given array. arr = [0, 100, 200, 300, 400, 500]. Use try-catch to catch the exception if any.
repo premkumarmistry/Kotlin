@@ -1,0 +1,12 @@
+fun main(){
+    
+    // write your code here
+    val arr = arrayOf(1,100,200,300,400,500)
+    try{
+        print(arr[6])
+    }
+    catch(e:Exception){
+        print(e)
+    }
+    
+}
