@@ -1,0 +1,24 @@
+import java.util.*
+
+fun main() {
+  
+    
+    var a = 10
+    var b = 0 
+    var c :Int
+    try{
+    c = a/b
+    
+    }
+    catch(e:Exception){
+        println("Can't divide with Zero") 
+    }
+       finally{
+           println("This is a Finally Block")
+       } 
+      
+   
+   
+   
+   
+}
