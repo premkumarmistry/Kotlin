@@ -1,0 +1,26 @@
+// create your Laptop class here
+
+
+class laptop{
+    var ram = "2 gb"
+    var brand = "HP"
+    var hdd="100 GB"
+fun performComputations(){
+    println("This is performComputations Function")
+}
+    
+}
+
+fun main(){
+
+    // Create object of class here    
+    
+    var laptop = laptop()
+    
+    
+    println(laptop.ram)
+    println(laptop.brand)
+    println(laptop.hdd)
+    laptop.performComputations()
+   
+}
