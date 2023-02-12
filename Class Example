@@ -1,0 +1,23 @@
+class Dog {
+    var breed:String = "Labrador"
+    var color:String = "Brown"
+    var age:Int = 3
+
+    fun eat(){
+        println("This is Eat Function")
+    }
+
+    fun bark(){
+        println("This is Bark Function")
+
+    }
+
+
+}
+
+
+
+fun main(){
+    var dog1 = Dog()
+    dog1.eat()
+}
